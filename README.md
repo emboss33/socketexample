@@ -99,7 +99,7 @@ const socket = io(SERVER_URL, {
   auth: {
     accessToken: '...',
     refreshToken: '...',
-    userAgent: navigator.userAgent,
+    ( 개인 알고리즘 처리 부분 )
     username: '사용자이름'
   }
 });
